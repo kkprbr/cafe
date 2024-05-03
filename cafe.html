@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="cafehomepage">
+    <div class="bg-container">
+        <nav>
+            <ul class="menu-items">
+                <li><a class="intro-menu" href="#Intro">Intro</a></li>
+                <li><a class="menu-menu" href="#Menu">Menu</a></li>
+                <li><a class="about-menu" href="#About">About</a></li>
+                <li><a class="contact-menu" href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="Intro-button"
+                onclick="display('Intro')">
+                </button>
+                <button class="Menu-button"
+                onclick="display('Menu')">
+                </button>
+                <button class="About-button"
+                onclick="display('About')">
+                </button>
+                <button class="contact-button"
+                onclick="display('Contact')">
+                </button>
+        </div>
+    <section id="Intro">
+        <div id="Intro">
+       <div class="bg-container1">
+        <div class="intro-heading">
+            <h1>INTRO</h1>
+            <p>A coffee shop is a retail establishment that primarily serves coffee, tea, and other hot beverages, often accompanied by pastries, sandwiches, or light snacks. It typically provides a comfortable atmosphere for socializing or working and may offer free Wi-Fi access. Historically, coffeehouses were known as cafés and served only coffee.</p>
+            <button class="button btn btn-warning justify-content-center"
+            onclick="display('cafehomepage')"
+            >
+            Back
+        </button>
+        </div>
+       </div>
+    </div>
+    </section>
+    </div>
+    <section id="Menu">
+        <div id="Menu">
+            <div class="menu-container">
+                <div class="menu-heading">
+                    <h1>MENU</h1>
+                 <div class="menu-images d-flex flex-row justify-content-center">
+                    <div class="menu-top-images">
+                        <img class="menu-item-1" src="menu-item-1.jpg"> <br>
+                        <a href="#Cappuccino">Cappuccino</a> <br>
+                        <img class="menu-item-2" src="menu-item-2.jpg"><br>
+                        <a href="#Black Coffee">Black Coffee</a> <br>
+                        <img class="menu-item-3" src="menu-item-3.jpg"><br>
+                        <a href="#Dry Cappuccino">Dry Cappuccino</a> <br>
+                        <img class="menu-item-4" src="menu-item-4.jpg"><br>
+                        <a href="#Flower Cappuccino">Flower Cappuccino</a> <br>
+                            <button class="Cappuccino-button"
+                                 onclick="display('Cappuccino')">
+                                  </button>
+                               <button class="Black Coffe-button"
+                              onclick="display('Black Coffee')">
+                              </button>
+                              <button class="Dry Cappuccino-button"
+                           onclick="display('Dry Cappuccino')">
+                         </button>
+                         <button class="Flower Cappuccino-button"
+                           onclick="display('Flower Cappuccino')">
+                              </button>
+                    </div>
+                </div>
+                <button class="button btn btn-warning"
+                   onclick="display('Menu')"
+                   >
+                    Back
+                 </button>
+             </div>
+            </div>
+        </div>
+     </section>
+     <section id="Cappuccino">
+     <div class="Cappuccino">
+        <div class="cappuccino-heading">
+            <h1> Cappucino</h1>
+            <p>A cappuccino is a hot coffee drink that is made of equal proportions of espresso, steamed milk, and milk foam. The drink is typically served in a small cup and is characterized by its rich and creamy texture, as well as its distinct three-layered appearance.</p>
+            <button class="button btn btn-warning"
+            onclick="display('Menu')"
+            >
+            Back
+        </button>
+        </div>
+     </div>
+    </section>
+    <section id="Black Coffee">
+        <div class="Black Coffee">
+           <div class="blackcoffee-heading">
+               <h1> Black Coffee</h1>
+               <p>Black coffee is simply coffee that is normally brewed without the addition of additives such as sugar, milk, cream, or added flavors. While it has a slightly bitter taste compared to when it is flavored with additives, many people love a strong cup of black coffee. In fact, for some, it is part of their everyday diet.</p>
+               <button class="button btn btn-warning"
+               onclick="display('Menu')"
+               >
+               Back
+           </button>
+           </div>
+        </div>
+       </section>
+       <section id="Dry Cappuccino">
+        <div class="Dry Cappuccino">
+           <div class="drycappuccino-heading">
+               <h1> Black Coffee</h1>
+               <p>A dry cappuccino has the basic layers of the standard cup but with different proportions. Instead of having equal parts espresso, steamed milk, and foamed milk, a dry cappuccino has very little steamed milk and a lot more foam. This is why it’s called dry as the foam is the least dense (liquid) portion of the drink.</p>
+               <button class="button btn btn-warning"
+               onclick="display('Menu')"
+               >
+               Back
+           </button>
+           </div>
+        </div>
+       </section>
+       <section id="Flower Cappuccino">
+        <div class="Flower Cappuccino">
+           <div class="flowercappuccino-heading">
+               <h1>Flower Coffee</h1>
+               <p>A dry cappuccino has the basic layers of the standard cup but with different proportions. Instead of having equal parts espresso, steamed milk, and foamed milk, a dry cappuccino has very little steamed milk and a lot more foam. This is why it’s called dry as the foam is the least dense (liquid) portion of the drink.</p>
+               <button class="button btn btn-warning"
+               onclick="display('Menu')"
+               >
+               Back
+           </button>
+           </div>
+        </div>
+       </section>
+       <section id="About">
+        <div id="About">
+       <div class="about-container">
+        <div class="about-heading">
+            <h1>About</h1>
+            <p>The third wave coffee movement, which originated in the United States in the early 2000s, emphasizes high-quality, artisanal coffee made with precision and care. Third wave cafés focus on sourcing specialty beans from specific regions, roasting them in-house, and brewing them using methods such as pour-over, AeroPress, or siphon. These cafés often have minimalist, industrial-chic interiors and a menu that highlights single-origin coffees, espresso-based drinks, and alternative milk options. Beyond coffee, third wave cafés may also offer gourmet pastries, small-batch teas, and locally sourced snacks, catering to discerning coffee connoisseurs and food enthusiasts alike.</p>
+            <button class="button btn btn-warning justify-content-center"
+            onclick="display('cafehomepage')"
+            >
+            Back
+        </button>
+        </div>
+       </div>
+    </div>
+    </section>
+    <section id="Contact">
+        <div class="contact-container">
+            <h2>Contact</h2>
+            <p>If you have any questions or would like to book a orders, feel free to contact us!</p>
+            <p>website: krishnascafe.com</p>
+            <p>Email: krishnascafe@gmail.com</p>
+            <p>Phone: 9963565745</p>
+             <div class="icons">
+                <img class="face-icon" src="facebook.svg">
+                <img class="insta-icon" src="instagram.svg">
+                <img class="twitter-icon" src="twitter-x.svg">
+                <img class="whatsapp-icon" src="whatsapp.svg">
+             </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>

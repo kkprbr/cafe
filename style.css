@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container{
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   background-image: url("https://images8.alphacoders.com/105/1058217.jpg");
+   color: blue;
+}
+.menu-items{
+   display: inline;
+   justify-content: right;
+   display: flex;
+   align-items: right;
+   padding: 10px;
+   font-size: x-large;
+   color: rgb(26, 24, 24);
+}
+.intro-menu{
+   color: rgb(157, 39, 204);
+   margin-right: 50px;
+   font-size: xx-large;
+   font-family: Bree Serif;
+   background-color: #ffffff;
+   border-radius: 10px;
+   padding: 7px;
+}
+.menu-menu{
+   color: rgb(157, 39, 204);
+   margin-right: 50px;
+   font-size: xx-large;
+   font-family: Bree Serif;
+   background-color: #ffffff;
+   border-radius: 10px;
+   padding: 7px;
+}
+.about-menu{
+   color: rgb(157, 39, 204);
+   margin-right: 50px;
+   font-size: xx-large;
+   font-family: Bree Serif;
+   background-color: #ffffff;
+   border-radius: 10px;
+   padding: 7px;
+}
+.contact-menu{
+   color: rgb(157, 39, 204);
+   margin-right: 180px;
+   font-size: xx-large;
+   font-family: Bree Serif;
+   background-color: #ffffff;
+   border-radius: 10px;
+   padding: 7px;
+}
+.bg-container1{
+   background-image: url("antique-cafe-bg-02.jpg");
+   height: 100vh;
+   width: 100vw;
+}
+.intro-heading{
+   text-align: center;
+   font-family: BreeSerif;
+   font-size: xx-large;
+
+
+}
+.menu-container{
+   background-image: url("antique-cafe-bg-03.jpg");
+   height: 170vh;
+   width: 100vw;
+}
+.menu-heading{
+   text-align: center;
+   color: rgb(228, 40, 40);
+   font-family: Roboto;
+   margin-top: 30px;
+}
+menu-button{
+   margin-top: 30px;
+}
+.menu-top-images{
+   justify-content: space-evenly;
+   
+}
+.menu-item-1{
+   margin-right: 10px;
+   height: 180px;
+   margin-top: 15px;
+}
+.menu-item-2{
+   margin-right: 10px;
+   height: 180px;
+   margin-top: 15px;
+}
+.menu-item-3{
+   margin-left: 10px;
+   height: 180px;
+   margin-top: 15px;
+}
+.menu-item-4{
+   margin-left: 10px;
+   height: 180px;
+   margin-top: 15px;
+}
+.menu-top-images{
+   color: rgb(223, 84, 74);
+   font-size: x-large;
+   font-weight: bold;
+   font-family: Bree Serif;
+}
+.cappuccino-heading{
+   background-image: url("https://javatrainbutler.com/assets/img/menu/mocha-blanca.jpg");
+   background-repeat: no-repeat;
+   height: 120vh;
+   background-position: center;
+   width: 90vw;
+   text-align: center;
+   font-size: x-large;
+   font-family: Bree Serif;
+}
+.blackcoffee-heading{
+
+   background-image: url("https://www.healthifyme.com/blog/wp-content/uploads/2022/06/Black-Coffee-2-1.jpg");
+   background-repeat: no-repeat;
+   height: 120vh;
+   background-position: center;
+   width: 90vw;
+   text-align: center;
+   font-size: x-large;
+   font-family: Bree Serif;
+   color: #ffffff;
+}
+.drycappuccino-heading{
+   background-image: url("https://coffeeaffection.com/wp-content/uploads/2021/02/cappuccino-pixabay.jpg");
+   background-repeat: no-repeat;
+   height: 150vh;
+   background-position: center;
+   width: 90vw;
+   text-align: center;
+   font-size: x-large;
+   font-family: Bree Serif;
+   color: #111010;
+}
+.flowercappuccino-heading{
+   background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/05/6a/2b/3c/black-velvet-coffee-espresso.jpg");
+   background-repeat: no-repeat;
+   height: 150vh;
+   background-position: center;
+   width: 90vw;
+   text-align: center;
+   font-size: x-large;
+   font-family: Bree Serif;
+   color: #111010;
+}
+.about-heading{
+   text-align: center;
+   font-size: x-large;
+   font-family: Bree Serif;
+   background-image: linear-gradient(rgb(211, 96, 211), rgb(136, 224, 136), rgb(133, 133, 221));
+   width: 99vw;
+   height: 96vh;
+   color: #ffffff;
+}
+.contact-container{
+   text-align: center;
+   font-size: x-large;
+   font-family: Bree Serif;
+   background-image: linear-gradient(rgb(157, 230, 226), rgb(224, 168, 94), rgb(213, 144, 223));
+   width: 100vw;
+   height: 100vh;
+}
+
+.icons{
+   padding: 20px;
+}
+.face-icon{
+   margin-right: 20px;
+   height: 40px;
+   width: 40px;
+}
+.insta-icon{
+   margin-right: 20px;
+   height: 40px;
+   width: 40px;
+}
+.twitter-icon{
+   margin-right: 10px;
+   height: 40px;
+   width: 40px;
+}
+.whatsapp-icon{
+   margin-left: 10px;
+   height: 40px;
+   width: 40px;
+}
